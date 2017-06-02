@@ -4,6 +4,9 @@ body{
       background-color: black;
       color: white;
       position: relative;
+    background-image: url("https://s-media-cache-ak0.pinimg.com/originals/c0/cf/d8/c0cfd8dc1a0938c12b082d03ae5fd268.jpg");
+top right no-repeat;
+background-attachment:fixed;
 }
 #heading{
     margin: 120px;
@@ -29,13 +32,18 @@ header{
     margin-bottom: 0px;
 }
 
+.navbar-nav {
+     margin: 0px 0px;
+}
+
 .affix ~ .container-fluid {
    position: relative;
    top: 50px;
 }
 
 #post{
-    background-color: rgba(43, 52, 66, 0.7);
+    background-color: rgba(118, 87, 99, 0.54);
+
     margin-top: 10px;
     margin-bottom: 10px;
 }
@@ -43,7 +51,7 @@ header{
     margin: 15px;
 }
 #deletePost:hover{
-    background: rgba(155, 88, 90,0.7);
+    background: rgba(155, 88, 90,0.8);
     border-radius: 50%;
     padding-bottom: 0px;
     padding-left: 4px;

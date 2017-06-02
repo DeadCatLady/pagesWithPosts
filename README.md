@@ -1,1 +1,2 @@
 # pagesWithPosts
+Work training project.
